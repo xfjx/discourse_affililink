@@ -8,14 +8,14 @@ affililink = function() {
   var a, addTagToEnd, domain, ebay, ebayCode, host, options, track, universalCode, url, _i, _len, _results;
   /* enter your affiliate codes below */
   ebayCode = {
-    'campaign': 5336854507, /* eBay Campaign Id */
-    'country': 'UK' /* AT, AU, BE, CA, CH, DE, ES, FR, IE, IT, NL, UK, US */
+    'campaign': '', /* eBay Campaign Id */
+    'country': '' /* AT, AU, BE, CA, CH, DE, ES, FR, IE, IT, NL, UK, US */
   };
   universalCode = {
     /* Amazon codes are present, if you want to add a custom code just follow the format of Amazon ('DOMAIN.COM': 'VARIABLE=',) */
-    'amazon.co.uk': 'tag=affililink-21',
-    'amazon.com': 'tag=affililink-20',
-    'amazon.de': 'tag=',
+    'amazon.co.uk': 'tag=',
+    'amazon.com': 'tag=',
+    'amazon.de': 'tag=nerdictalking-21&linkId=e2460147e60e157bbec8b32181884e91&language=de_DE',
     'amazon.fr': 'tag=',
     'javari.co.uk': 'tag=',
     'javari.de': 'tag=',
@@ -27,7 +27,7 @@ affililink = function() {
   options = {
     'replace_links': true, /* replace existing affiliate codes */
     'track_views': false, /* track views on Google Analytics */
-    'track_clicks': true /* track clicks on Google Analytics */
+    'track_clicks': false /* track clicks on Google Analytics */
     /* DO NOT EDIT BELOW THIS LINE */
   };
   track = function() {
